@@ -17,6 +17,16 @@ provider "aws" {
 
 # Criando topico e assinatura SNS na AWS
 
+resource "aws_sns_topic" "Monitoramento_criacao_remocao_recursos" {
+  name = "Monitoramento_atividades"
+  
+}
+
+resource "aws_sns_topic_subscription" "assinatura_email" {
+  topic_arn = aws_sns_topic.Monitoramento_criacao_remocao_recursos.arn
+  protocol = "email"
+  endpoint = "aramisoliveira@live.com"
+}
 
 
 
