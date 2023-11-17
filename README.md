@@ -36,4 +36,4 @@ Notificações de Criação e Remoção de Recursos
 Por fim, a evidência da notificação da criação e remoção de recursos. Utilizei um bucket S3 para exemplificar.
 
 ![Monitor_criacao](./imagens/criar.PNG)
-![Monitor_remove](./imagens/delete.PNG)
+![Monitor_remove](./imagens/delet.PNG)
